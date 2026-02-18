@@ -1,3 +1,5 @@
+package javaArchitecture.BasicDataStructure;
+
 public class Objetos {
     //Atributos
     private String nome;

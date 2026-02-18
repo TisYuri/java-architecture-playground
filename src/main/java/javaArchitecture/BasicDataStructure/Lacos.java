@@ -1,3 +1,5 @@
+package javaArchitecture.BasicDataStructure;
+
 public class Lacos {
     public static void main(String[] args){
         //Laço For, repete numero determinado de vezes

@@ -1,3 +1,5 @@
+package javaArchitecture.AdvancedDataStructuresAndSorting;
+
 public class ExemploBubbleSort {
     public static void bubbleSort(int[] arr) {
         boolean swap;

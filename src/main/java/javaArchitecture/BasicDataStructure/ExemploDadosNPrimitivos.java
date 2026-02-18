@@ -1,3 +1,5 @@
+package javaArchitecture.BasicDataStructure;
+
 public class ExemploDadosNPrimitivos {
     public static void main(String[] args){
         //tipos caracter PRIMITIVO

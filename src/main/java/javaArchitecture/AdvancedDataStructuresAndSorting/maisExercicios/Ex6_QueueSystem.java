@@ -18,20 +18,18 @@ public class Ex6_QueueSystem {
 
 
         while(option != 0){
+            System.out.println("--------------------------------------------------");
             System.out.println("Bem-vindo ao gerenciador de Fila\n" +
                     "Escolha um numero para as opções abaixo:");
             System.out.println("Opção 1: Adicionar um cliente a fila. Digite o nome do cliente.");
             System.out.println("Opção 2: Atender o primeiro cliente da fila.");
             System.out.println("Opção 3: Exibir a fila de espera.");
-            System.out.println("Opção 4: Para sair.");
+            System.out.println("Opção 4: Remover um cliente da fila.");
+            System.out.println("Opção 0: Para sair.");
             System.out.println("--------------------------------------------------");
 
-            try{
-                option = sc.nextInt();
-                sc.nextLine();
-            }catch(InputMismatchException e){
-                System.out.println("Por favor digite um numero válido\n");
-            }
+            option = sc.nextInt();
+            sc.nextLine();
 
 
             switch (option){
@@ -55,6 +53,14 @@ public class Ex6_QueueSystem {
                         index++;
                     }
                     System.out.println("--------------------------------------\n");
+                break;
+                case 4:
+                    System.out.println("\nDigite o nome do Cliente que você quer remover:");
+                    String clientName = sc.nextLine();
+                    if(!queue.remove(clientName)){
+                        System.out.println("\nO cliente " + clientName + " Não foi encontrado."  +
+                                "\n certifique-se de que o nome está correto e tente novamente.");
+                    }
                 break;
                 default:
                     System.out.println("Digite um numero valido por favor.\n");

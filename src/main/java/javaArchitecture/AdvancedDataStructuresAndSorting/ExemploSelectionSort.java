@@ -1,3 +1,5 @@
+package javaArchitecture.AdvancedDataStructuresAndSorting;
+
 public class ExemploSelectionSort {
      
     public static void selectionSort(int[] arr){

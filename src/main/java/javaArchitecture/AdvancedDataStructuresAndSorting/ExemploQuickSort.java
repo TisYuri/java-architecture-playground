@@ -1,3 +1,5 @@
+package javaArchitecture.AdvancedDataStructuresAndSorting;
+
 public class ExemploQuickSort {
    
     //chama apenas usando o array

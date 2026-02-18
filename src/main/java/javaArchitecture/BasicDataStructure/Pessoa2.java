@@ -1,3 +1,5 @@
+package javaArchitecture.BasicDataStructure;
+
 public class Pessoa2 {
     private String nome;
     private int idade;

@@ -1,3 +1,5 @@
+package javaArchitecture.BasicDataStructure;
+
 public class ExemploDadosPrimitivos {
     public static void main(String[] args){
         //numeros inteiros

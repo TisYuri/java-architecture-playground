@@ -1,3 +1,5 @@
+package javaArchitecture.AdvancedDataStructuresAndSorting;
+
 public class ExemploMergeSort {
     
     public static void mergeSort(int[] arr) {

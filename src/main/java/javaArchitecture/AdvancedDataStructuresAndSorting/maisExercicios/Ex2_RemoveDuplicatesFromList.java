@@ -17,6 +17,7 @@ public class Ex2_RemoveDuplicatesFromList {
         numbersList.add(2);
         numbersList.add(7);
 
+        System.out.println("Lista original: \n" + numbersList);
         for(int i = 0; i < numbersList.size(); i++){
             for(int j = i + 1; j < numbersList.size(); j++){
                 if(numbersList.get(i).equals(numbersList.get(j))){

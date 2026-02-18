@@ -1,3 +1,5 @@
+package javaArchitecture.BasicDataStructure;
+
 import java.util.Scanner;
 
 public class Pessoa {
